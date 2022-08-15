@@ -1,0 +1,330 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-15T14:12:47.967Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2938265000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To  validate product price in ebay Application",
+        "description": "",
+        "id": "to-validate-the-product-price-in-ebay-application;to--validate-product-price-in-ebay-application",
+        "after": [
+          {
+            "result": {
+              "duration": 1182605100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10538029400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user should be in the ebay homepage",
+            "match": {
+              "location": "EbayProduct.the_user_should_be_in_the_ebay_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4966383200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user has to enter the productname \"Electric Guitar\" in serach box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Electric Guitar\"",
+                  "offset": 38
+                }
+              ],
+              "location": "EbayProduct.the_user_has_to_enter_the_productname_in_serach_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 418962000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user has click the search button",
+            "match": {
+              "location": "EbayProduct.the_user_has_click_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9255199000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To print first product result in console",
+            "match": {
+              "location": "EbayProduct.to_print_first_product_result_in_console()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ebay"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the product price in ebay Application",
+    "description": "",
+    "id": "to-validate-the-product-price-in-ebay-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/ebay.feature",
+    "tags": [
+      {
+        "name": "@ebay",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4436831900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user should be in the gmail login page",
+            "match": {
+              "location": "GmailLoginSteps.the_user_should_be_in_the_gmail_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-15T14:13:17.307Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1346401600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "To  validate gmail login with valid credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionaly-of-gmail-application;to--validate-gmail-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1033461600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 103180100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user has to enter the username and click the next button",
+            "match": {
+              "location": "GmailLoginSteps.the_user_has_to_enter_the_username_and_click_the_next_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2237420300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user has to enter the password and click the next button",
+            "match": {
+              "location": "GmailLoginSteps.the_user_has_to_enter_the_password_and_click_the_next_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9682493400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To validate the user profile for the valid login",
+            "match": {
+              "location": "GmailLoginSteps.to_validate_the_user_profile_for_the_valid_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gmail"
+          },
+          {
+            "name": "@validlogin"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3949691600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user should be in the gmail login page",
+            "match": {
+              "location": "GmailLoginSteps.the_user_should_be_in_the_gmail_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-15T14:13:36.169Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1233792300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To  validate gmail login with Invalid credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionaly-of-gmail-application;to--validate-gmail-login-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 865681300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79938000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user has to enter the username and click the next button",
+            "match": {
+              "location": "GmailLoginSteps.the_user_has_to_enter_the_username_and_click_the_next_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2204062000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The user has to enter the invalid password and click the next button",
+            "match": {
+              "location": "GmailLoginSteps.the_user_has_to_enter_the_invalid_password_and_click_the_next_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 668688000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To validate the user profile for the Invalid valid login",
+            "match": {
+              "location": "GmailLoginSteps.to_validate_the_user_profile_for_the_Invalid_valid_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gmail"
+          },
+          {
+            "name": "@invalidlogin"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionaly of gmail application",
+    "description": "",
+    "id": "to-validate-the-login-functionaly-of-gmail-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": [
+      {
+        "name": "@gmail",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
